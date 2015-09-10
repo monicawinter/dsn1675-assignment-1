@@ -3,9 +3,102 @@ h1 {
   font-weight:bold;
 }
 
+nav {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+nav a {
+  text-decoration: none;
+}
+
 nav li {
   float: left;
   width: 25%;
   list-style-type: none;
   display:block;
+  text-decoration: none;
+}
+
+.wonders {
+  position: relative;
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+  position:absolute;
+  font-weight:bold;
+}
+
+.swp {
+  text-align:center;
+  position: absolute;
+}
+
+h3 {
+  text-align: center;
+}
+
+.btn-fif {
+  float:left;
+  display: block;
+  text-decoration: none;
+  width: inherit;
+  background-color: lightblue;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.btn-five {
+  float: right;
+  display: block;
+  text-decoration: none;
+  width: inherit;
+  background-color: lightblue;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.btn-nine {
+  float: left;
+  clear: left;
+  display: block;
+  text-decoration: none;
+  width: inherit;
+  background-color: lightblue;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.btn-thir {
+  float: right;
+  clear: right;
+  display: block;
+  text-decoration: none;
+  background-color: lightblue;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.links1 {
+  width: 100%;
+}
+
+.links2 {
+  width: 100%;
+}
+
+.links1 a {
+  width: 40%;
+  text-align: center;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.links2 a {
+  width: 40%;
+  text-align: center;
+  margin-left: 1em;
+  margin-right: 1em;
 }
