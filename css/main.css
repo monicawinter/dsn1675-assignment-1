@@ -145,3 +145,11 @@ h3 {
 h4 {
   font-family: 'Open Sans', sans-serif;
 }
+
+.margin {
+  margin: 2em;
+}
+
+img {
+  width: 100%;
+}
