@@ -2,19 +2,30 @@ body {
   margin: 0;
 }
 
+.masthead {
+background-image: url("../images/logo.svg");
+background-size: 60px auto;
+padding: 0em;
+background-repeat: no-repeat;
+background-position: calc(8%) 1.5em 2em;
+}
+
 h1 {
   text-align: center;
   font-weight:bold;
   font-family: 'Open Sans', sans-serif;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 p {
   font-family: 'Lora', serif;
 }
 
+a:hover {
+  color: blue;
+}
+
 nav {
-  padding-bottom: 1em;
   font-family: 'Lora', serif;
   font-size: 0.7em;
   background-color: lightblue;
@@ -57,7 +68,6 @@ nav li {
 h2 {
   text-align: center;
   position:absolute;
-  font-weight:bold;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.45em;
   color: #fff;
@@ -166,4 +176,45 @@ margin: 1em;
 text-align: center;
 padding-top: 0.5em;
 padding-bottom: 0.5em;
+color: black;
+}
+
+.learn a {
+  text-decoration: none;
+  color: black;
+}
+
+dl {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+dd {
+  margin: 0;
+}
+
+.left {
+  width: 33%;
+  float: left;
+  display: inline;
+  position: relative;
+}
+
+.middle {
+  width: 33%;
+  display: inline;
+  position: relative;
+  float:none;
+}
+
+.right {
+  width: 33%;
+  display: inline;
+  float: right;
+  position: relative;
+}
+
+li {
+  list-style-type: none;
 }
