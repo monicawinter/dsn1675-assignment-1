@@ -17,8 +17,10 @@ h1 {
   font-size: 1.5em;
 }
 
-p {
+.text {
   font-family: 'Lora', serif;
+  text-align: center;
+  font-size: 0.75em;
 }
 
 a:hover {
@@ -91,6 +93,7 @@ h3 {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   margin-bottom: 0em;
+  clear: both;
 }
 
 .btn-fif {
@@ -101,6 +104,7 @@ h3 {
   background-color: lightblue;
   padding-top: 1em;
   padding-bottom: 1em;
+  margin: 1em 0em 1em 0em;
 }
 
 .btn-five {
@@ -111,6 +115,7 @@ h3 {
   background-color: lightblue;
   padding-top: 1em;
   padding-bottom: 1em;
+  margin: 1em 0em 1em 0em;
 }
 
 .btn-nine {
@@ -122,6 +127,7 @@ h3 {
   background-color: lightblue;
   padding-top: 1em;
   padding-bottom: 1em;
+  margin: 1em 0em 1em 0em;
 }
 
 .btn-thir {
@@ -132,6 +138,7 @@ h3 {
   background-color: lightblue;
   padding-top: 1em;
   padding-bottom: 1em;
+  margin: 1em 0em 1em 0em;
 }
 
 .links1 {
@@ -145,15 +152,13 @@ h3 {
 .links1 a {
   width: 40%;
   text-align: center;
-  margin-left: 1em;
-  margin-right: 1em;
+  color: black;
 }
 
 .links2 a {
   width: 40%;
   text-align: center;
-  margin-left: 1em;
-  margin-right: 1em;
+  color: black;
 }
 
 h4 {
@@ -217,4 +222,26 @@ dd {
 
 li {
   list-style-type: none;
+}
+
+.member {
+  text-align: center;
+  clear: both;
+}
+
+.playing {
+  clear: both;
+  margin: 1em 0em 1em 0em;
+}
+
+figure {
+  margin: 0;
+}
+
+.atlantis {
+  width: 100%;
+}
+
+.leftp {
+  text-align: left;
 }
