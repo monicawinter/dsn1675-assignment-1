@@ -245,3 +245,29 @@ figure {
 .leftp {
   text-align: left;
 }
+
+footer {
+  background-color: lightblue;
+  padding: 1em;
+}
+
+aside {
+  padding-bottom: 1em;
+}
+
+ad {
+  color: blue;
+}
+
+.hd {
+  color: blue;
+  text-decoration: none;
+  padding-right: 2em;
+}
+
+.blue {
+  color: blue;
+  text-decoration: none;
+  display: block;
+  padding-bottom: 0.5em;
+}
