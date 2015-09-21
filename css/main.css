@@ -338,8 +338,18 @@ nav {
   font-size: 0.8em;
 }
 
+h2{
+  font-size: 1.75em;
+}
+
 h3 {
-  font-size: 1.5em;
+  font-size: 1.75em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+h4 {
+  font-size: 1.25em;
 }
 
 .margin img {
@@ -397,6 +407,14 @@ footer {
 
   h2 {
     font-size: 2em;
+  }
+
+  h3 {
+  font-size: 2em;
+}
+
+  h4 {
+    font-size: 1.5em;
   }
 
 }
