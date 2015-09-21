@@ -49,8 +49,7 @@ nav {
   font-family: 'Lora', serif;
   font-size: 0.7em;
   background-color: lightblue;
-  padding: 1em;
-  padding-bottom: 3em;
+  padding: 0.25em;
 }
 
 nav ol {
@@ -64,12 +63,12 @@ nav a {
 }
 
 nav li {
-  float: left;
-  width: 25%;
+  width: 100%;
   list-style-type: none;
-  display:block;
+  display: block;
   text-decoration: none;
   color: black;
+  padding: 0.5em;
 }
 
 .wonders {
@@ -89,7 +88,7 @@ h2 {
   text-align: center;
   position:absolute;
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.45em;
+  font-size: 1em;
   color: #fff;
   width: 100%;
   bottom: 30%;
@@ -100,7 +99,7 @@ h2 {
   text-align:center;
   position: absolute;
   font-family: 'Open Sans', sans-serif;
-  font-size: 0.75em;
+  font-size: 0.5em;
   color: #fff;
   width: 100%;
   bottom: 15%;
@@ -213,29 +212,13 @@ dl {
   overflow: hidden;
 }
 
+dt {
+  padding-top: 0.5em;
+}
+
 dd {
   margin: 0;
-}
-
-.left {
-  width: 33%;
-  float: left;
-  display: inline;
-  position: relative;
-}
-
-.middle {
-  width: 33%;
-  display: inline;
-  position: relative;
-  float:none;
-}
-
-.right {
-  width: 33%;
-  display: inline;
-  float: right;
-  position: relative;
+  padding-bottom: 0.5em;
 }
 
 li {
@@ -265,23 +248,22 @@ figure {
 figcaption {
   text-align: center;
   position:absolute;
-  font-size: 1.25em;
+  font-size: 1em;
   color: #fff;
   width: 100%;
   line-height: 100%;
 }
 
 .fig1 {
-  bottom: 50%;
+  bottom: 60%;
 }
 
 .fig2 {
-  bottom: 40%;
+  bottom: 50%;
 }
 
 .shows {
   text-align: center;
-  position: absolute;
   display: block;
   text-decoration: none;
   background-color: lightblue;
@@ -289,7 +271,20 @@ figcaption {
   margin: 0 auto;
   color: black;
   bottom: 10%;
-  left: 40%;
+  left: 25%;
+}
+
+ol {
+  padding: 1em;
+}
+
+ol h4 {
+  margin-top: 0.5em;
+  margin-bottom: 0.25em;
+}
+
+ul {
+  padding: 1em;
 }
 
 .leftp {
@@ -320,6 +315,72 @@ ad {
   text-decoration: none;
   display: block;
   padding-bottom: 0.5em;
+}
+
+
+@media only screen and (min-width: 21em) {
+
+  nav {
+    font-size: 0.75em;
+    padding: 0.3em;
+    padding-bottom: 3.5em;
+  }
+
+  nav li {
+    float: left;
+    width: 25%;
+  }
+
+  h2 {
+    font-size: 1.45em;
+  }
+
+  .swp {
+    font-size: 0.75em;
+  }
+
+  .left {
+    width: 33%;
+    float: left;
+    display: inline;
+    position: relative;
+  }
+
+  .middle {
+    width: 33%;
+    display: inline;
+    position: relative;
+    float:none;
+  }
+
+  .right {
+    width: 33%;
+    display: inline;
+    float: right;
+    position: relative;
+  }
+
+  figcaption {
+    font-size: 1.25em;
+  }
+
+  .fig1 {
+    bottom: 50%;
+  }
+
+  .fig2 {
+    bottom: 40%;
+  }
+
+  .shows {
+    position: absolute;
+    left: 40%;
+  }
+
+ol {
+padding-left: 40px;
+}
+
 }
 
 
