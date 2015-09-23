@@ -557,5 +557,56 @@ h3 {
   margin: 0 auto;
 }
 
+}
+
+
+
+
+
+
+
+
+
+@media print {
+
+nav {
+  display: none;
+}
+
+.margin img {
+  width: 50%;
+  display: block;
+  float: left;
+  clear: left;
+}
+
+.imgdl {
+  width: 50%;
+  display: block;
+  float: right;
+  clear: right;
+  padding-left: 1em;
+}
+
+.shows {
+  display: none;
+}
+
+.extra {
+  max-width: 50em;
+  margin: 0 auto;
+}
+
+.learn {
+display: none;
+}
+
+.hd {
+  display: none;
+}
+
+.blue {
+  display: none;
+}
 
 }
