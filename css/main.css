@@ -569,8 +569,28 @@ h3 {
 
 @media print {
 
+h1 {
+  font-size: 2em;
+}
+
 nav {
   display: none;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+.swp {
+  font-size: 1em;
+}
+
+h4 {
+  font-size: 1.2em;
 }
 
 .margin img {
@@ -578,6 +598,7 @@ nav {
   display: block;
   float: left;
   clear: left;
+  margin-bottom: 2em;
 }
 
 .imgdl {
@@ -586,6 +607,31 @@ nav {
   float: right;
   clear: right;
   padding-left: 1em;
+}
+
+.text {
+  margin-left: 6em;
+  margin-right: 6em;
+}
+
+.btn-fif {
+  margin-left: 4em;
+}
+
+.btn-five {
+  margin-right: 4em;
+}
+
+.btn-nine {
+  margin-left: 4em;
+}
+
+.btn-thir {
+  margin-right: 4em;
+}
+
+figcaption {
+  font-size: 1.5em;
 }
 
 .shows {
@@ -607,6 +653,24 @@ display: none;
 
 .blue {
   display: none;
+}
+
+ol {
+  text-align: center;
+  padding: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+footer {
+  text-align: center;
+  margin-top: 3em;
+}
+
+.leftp {
+  text-align: center;
 }
 
 }
