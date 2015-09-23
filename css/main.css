@@ -485,6 +485,10 @@ figcaption {
 
 @media only screen and (min-width: 56em) {
 
+  .masthead {
+  background-size: 80px auto;
+}
+
   h1 {
     font-size: 2.5em;
   }
@@ -517,5 +521,41 @@ figcaption {
   footer {
     margin-top: 3em;
   }
+
+}
+
+
+@media only screen and (min-width: 68em) {
+
+h1 {
+  font-size: 3em;
+}
+
+nav {
+  font-size: 1em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+.swp {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 2.5em;
+}
+
+.extra {
+  max-width: 50em;
+  margin: 0 auto;
+}
+
+.learn {
+  font-size: 1em;
+  margin: 0 auto;
+}
+
 
 }
